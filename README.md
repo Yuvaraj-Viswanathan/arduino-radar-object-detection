@@ -19,14 +19,12 @@ This project implements a low-cost radar system using an Arduino UNO, ultrasonic
 ## 🗂️ Project Structure
 ```
 arduino-radar-object-detection/
-├── Arduino_Code/
-│ └── radar.ino
-├── Processing_Visualization/
-│ └── radar_visual.pde
+├── radar.ino
+├── Arduino Radar for object detection.pdf
 ├── images/
-│ └── radar-demo.png
-├── README.md
-└── LICENSE
+│   └── radar-demo.png
+└── README.md
+
 ```
 
 ## 🛠️ How to Use
@@ -39,10 +37,7 @@ arduino-radar-object-detection/
 - Open `radar.ino` from the `Arduino_Code/` folder.
 - Upload it to your Arduino UNO using the Arduino IDE.
 
-### 3. Run Processing Visualization
-- Open `radar_visual.pde` from the `Processing_Visualization/` folder in Processing IDE.
-- Choose the correct serial port for the Arduino.
-- Click "Run" to visualize the radar sweep in real-time.
+
 
 ## 📸 Demo
 ![Radar Demo](images/radar-demo.png)
