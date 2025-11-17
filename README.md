@@ -1,14 +1,14 @@
-# Arduino Radar for Object Detection 🚀
+# Arduino Radar for Object Detection 
 
 This project implements a low-cost radar system using an Arduino UNO, ultrasonic sensor, and servo motor. The system scans a 180° area, detects objects, and visualizes them in real time using the Processing IDE.
 
-## 📌 Features
+## Features
 - Real-time object detection and distance tracking
 - Servo motor-based radar sweep
 - 180° scanning arc with obstacle mapping
 - Visualization of radar sweep on PC using Processing
 
-## 🧰 Components Used
+## Components Used
 - Arduino UNO  
 - HC-SR04 Ultrasonic Sensor  
 - SG90 Servo Motor  
@@ -16,7 +16,7 @@ This project implements a low-cost radar system using an Arduino UNO, ultrasonic
 - Breadboard & Jumper Wires  
 - Processing IDE (for PC visualization)
 
-## 🗂️ Project Structure
+##  Project Structure
 ```
 arduino-radar-object-detection/
 ├── radar.ino
@@ -27,7 +27,7 @@ arduino-radar-object-detection/
 
 ```
 
-## 🛠️ How to Use
+## How to Use
 
 ### 1. Hardware Setup
 - Connect the ultrasonic sensor and servo motor to the Arduino UNO as per the circuit diagram.
@@ -39,26 +39,26 @@ arduino-radar-object-detection/
 
 
 
-## 📸 Demo
+##  Demo
 ![Radar Demo](images/radar-demo.png)
 
-## 📚 Concepts Covered
+##  Concepts Covered
 - Ultrasonic distance measurement
 - Servo motor control (PWM)
 - Serial communication between Arduino and PC
 - Real-time graphical visualization with Processing
 
-## 💡 Applications
+##  Applications
 - Proximity detection
 - Robotic obstacle avoidance
 - Low-cost radar simulation for learning purposes
 
-## 📄 License
+## License
 This project is licensed under the [MIT License](LICENSE).
 
-## 🤝 Contributing
+## Contributing
 Contributions are welcome! Feel free to fork this repository and submit a pull request.
 
-## 📬 Contact
+## Contact
 For questions or suggestions, reach out via [GitHub Issues](https://github.com/your-username/arduino-radar-object-detection/issues).
 
